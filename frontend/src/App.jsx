@@ -1,11 +1,10 @@
 import { useState } from 'react'
 import './index.css'
-
+import AudioUploader from './components/AudioUploader';
 function App() {
-
   return (
     <>
-      <h1 className=''>Hello</h1>
+      <AudioUploader />
     </>
   )
 }
